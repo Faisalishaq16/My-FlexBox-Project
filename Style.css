@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color:lightgoldenrodyellow;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: slategrey;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flex-item {
+    background-color: #c7cdd3;
+    color: brown;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 30%; /* Adjusts the size of the items */
+    text-align: center;
+}
